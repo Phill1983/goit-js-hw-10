@@ -10,7 +10,7 @@ export default defineConfig(({ command }) => {
       [command === 'serve' ? 'global' : '_global']: {},
     },
     root: 'src',
-    base: "git@github.com:Phill1983/goit-js-hw-10.git",
+    base: "/goit-js-hw-10/",
     build: {
       sourcemap: true,
       rollupOptions: {
