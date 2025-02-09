@@ -25,8 +25,36 @@ body {
 }
 
 main {
-  flex-grow: 1;
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
 }
-main:has(.back-link) {
+
+.back-link {
   text-align: center;
+  padding-top: 30px;
+  text-decoration: underline;
+}
+
+nav {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+nav a {
+  display: flex;
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  transition: background 0.3s;
+  flex-direction: column;
+}
+
+nav a:hover {
+  background-color: #0056b3;
 }
